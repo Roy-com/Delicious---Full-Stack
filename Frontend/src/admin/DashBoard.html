@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Admin - Dashboard</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="../assets/admin/img/RestuarentLogo.png" rel="icon" />
+    <link
+      href="../assets/admin/img/RestuarentLogo.png"
+      rel="apple-touch-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="../assets/admin/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="../assets/admin/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="../assets/admin/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="../assets/admin/vendor/boxicons/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="../assets/admin/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="../assets/admin/vendor/swiper/swiper-bundle.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/admin.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+    <!-- ======= Header ======= -->
+    <header id="header">
+      <div class="d-flex flex-column">
+        <div class="profile">
+          <img
+            src="../assets/admin/img/RestuarentLogo.png"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+
+        <nav id="navbar" class="nav-menu navbar">
+          <ul>
+            <li>
+              <a href="#hero" class="nav-link scrollto active"
+                ><span>Home</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav-link scrollto"><span>About</span></a>
+            </li>
+            <li>
+              <a href="#menu" class="nav-link scrollto"><span>Menu</span></a>
+            </li>
+            <li>
+              <a href="#special" class="nav-link scrollto"
+                ><span>Special</span></a
+              >
+            </li>
+
+            <li>
+              <a href="#event" class="nav-link scrollto"><span>Event</span></a>
+            </li>
+            <li>
+              <a href="#chefs" class="nav-link scrollto"> <span>Chefs</span></a>
+            </li>
+            <li>
+              <a href="#gallery" class="nav-link scrollto">
+                <span>Gallery</span></a
+              >
+            </li>
+            <li>
+              <a  id="LogoutButton">
+                <span>Logout</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Home Section ======= -->
+    <div class="HomeNavbar" id="Homenavbarimg">
+      <div class="imageInNavbar">
+        <img
+          src="../assets/admin/img/RestuarentLogo.png"
+          alt=""
+          class="img-fluid"
+        />
+      </div>
+      <div class="iTypeIcon">
+        <i aria-hidden="true" class="far fa-heart i-icon i-icon_heart"></i>
+        <i aria-hidden="true" class="fas fa-shopping-cart i-icon"></i>
+        <i aria-hidden="true" class="fas fa-search i-icon"></i>
+      </div>
+    </div>
+
+    <main id="main">
+      <!-- Home  -->
+      
+      <section id="hero">Home</section>
+      <!-- About  -->
+      <section id="about">About</section>
+      <!-- Menu  -->
+      <section id="menu">Menu</section>
+      <!-- Special  -->
+      <section id="special">Special</section>
+      <!-- Event  -->
+      <section id="event">Event</section>
+      <!-- Chefs  -->
+      <section id="chefs">Chefs</section>
+      <!-- Gallery  -->
+      <section id="gallery">
+        <h2 class="GalleryHeadingOfGalleryPage">Gallery</h2>
+        <div class="gallerHeadingUpdate">
+          <div class="galleryHeadingAndButtonSeperationDiv">
+            <div class="galleryHaeding">
+              <div id="Heading">Heading</div>
+              <input type="text" id="headingInput" />
+              <!-- <button id="UpdateButtonOfHeading">Update</button> -->
+            </div>
+            <div class="galleryHeadingSpan">
+              <div id="HeadingSpan">Heading Span</div>
+              <input type="text" id="headingSpaninput" />
+              <!-- <button id="UpdateButtonOfHeadingSpan">Update</button> -->
+            </div>
+            <div class="galleryHeadingPara">
+              <div id="Headingpara">Heading para</div>
+              <input type="text" id="headingParainput" />
+              <!-- <button id="UpdateButtonOfHeadingPara">Update</button> -->
+            </div>
+          </div>
+          <div class="ButtonOFGalleryHeadingUpdate">
+            <button id="UpdateButtonOfHeading">Update</button>
+          </div>
+        </div>
+        <div class="ImageUrlInputSection">
+          <div class="formdata">
+            <form
+              onsubmit="event.preventDefault();"
+              autocomplete="off"
+              class="formUrlImage"
+            >
+              <div>Gallery Image Url</div>
+              <input
+                type="text"
+                class="ImageUrlInput"
+                value=""
+                placeholder="Enter the Image Url"
+              />
+
+              <div style="width: 100%">
+                <button type="submit" class="AddButtonOfImageUrl">Add</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="display_table">
+            <table class="list">
+              <thead>
+                <tr>
+                  <th>Id</th>
+                  <th>Image Url</th>
+
+                  <th>Edit</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+     
+    </main>
+
+    <!-- <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a> -->
+
+    <!-- Vendor JS Files -->
+    <script src="../assets/admin/vendor/purecounter/purecounter.js"></script>
+    <script src="../assets/admin/vendor/aos/aos.js"></script>
+    <script src="../assets/admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/admin/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/admin/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../assets/admin/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/admin/vendor/typed.js/typed.min.js"></script>
+    <script src="../assets/admin/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="../assets/admin/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/admin/js/main.js"></script>
+    <script src="../assets/admin/js/gallery.js"></script>
+   
+  </body>
+</html>
